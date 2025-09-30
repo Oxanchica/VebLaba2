@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<link rel="stylesheet" href="Л2.css">
+<title>Форма обратной связи</title>
+</head>
+
+<body><form align="center" enctype="multipart/form-data" method="post" action="https://httpbin.org/post">
+<p><input name="name" type="text" size="40" value="ФИО"><br>
+<input name="email" type="text" size="40" value="email"></p>
+
+<p>Откуда вы узнали о нас?</p>
+<p><input name="infSource" type="radio" value="friend">От друга<br>
+<input name="infSource" type="radio" value="web">Из интернета</p>
+
+<select name="requestType">
+<option disabled>Тип обращения</option>
+<option value="complain">Жалоба</option>
+<option value="offer">Предложение</option>
+</select>
+
+<p><textarea name="mesage" col="100" rows="5"></textarea></p>
+
+<p><input name="file" type="file"></p>
+<p><input name="agree" type="checkbox">Даю согласие на обработку персональных данных</p>
+<p><input type="submit" value="Отправить"></p>
+</form></body></html>

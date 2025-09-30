@@ -1,0 +1,31 @@
+body {
+	background-image: url("background.jpg");
+	display: flex;
+	justify-content: center;
+	color: fuchsia;
+}
+
+form {
+	background: white;
+	width: 630px;
+	border-radius: 5px;
+	border: dotted red;
+}
+
+input {
+	color: lime;
+}
+
+input[type=submit] {
+	color: black;
+}
+
+select {
+	color: lime;
+}
+
+textarea {
+	width: 600px;
+	height: 200px;
+	color: lime;
+}
